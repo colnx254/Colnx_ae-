@@ -32,7 +32,7 @@ nav a {
 
 section {
   padding: 3rem 2rem;
-  max-width: 800px;
+  max-width: 980px;
   margin: auto;
 }
 
@@ -46,8 +46,35 @@ section {
   margin-bottom: 2rem;
 }
 
-.project h3 {
+.project h3,
+.agent-card h3 {
   color: #ffcc00;
+}
+
+.agent-section p {
+  margin-bottom: 1.5rem;
+}
+
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.agent-card {
+  background: #1b1b1b;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.agent-card ul,
+.agent-card ol {
+  padding-left: 1.1rem;
+}
+
+.agent-card li {
+  margin-bottom: 0.6rem;
 }
 
 a {
